@@ -1,0 +1,53 @@
+/* #2E2F42 - navy blue - текст заголовков и ссылок в навигации */
+/* #434455 - slate - основной цвет текста */
+/* #FFFFFF - белый */
+/* #E7E9FC - цвет текста в футере */
+/* #4D5AE5 - фон кнопки */
+/* #434455; - цвет контактов */
+
+.page {
+    background-color: #FFFFFF;
+    color:#434455;
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: #2E2F42;
+}
+
+.site-nav .link:hover, .site-nav .link:focus{
+    color: red;
+}
+
+.contacts a {
+    color: #434455;
+}
+
+.hero {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
+.hero .hero-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF
+}
+
+.Features .features-title {
+    color: #2E2F42;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.page-footer {
+    background-color: #2E2F42;
+}
+
+.page-footer>p {
+    color: #E7E9FC;
+}
