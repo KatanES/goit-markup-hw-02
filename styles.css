@@ -4,30 +4,40 @@
 /* #E7E9FC - цвет текста в футере */
 /* #4D5AE5 - фон кнопки */
 /* #434455; - цвет контактов */
+:root {
+    --primary-text-color: #434455;
+    --primary-header-color: #2E2F42;
+    --pressed-state-color: #4D5AE5;
+    --primary-background-color: #2E2F42;
+}
 
 .page {
     background-color: #FFFFFF;
-    color:#434455;
+    color: var(--primary-text-color);
 }
 
 .list {
     list-style: none;
 }
 
+.section {
+    color: var(--primary-header-color);
+}
+
 .site-nav .link {
-    color: #2E2F42;
+    color: var(--primary-header-color);
 }
 
 .site-nav .link:hover, .site-nav .link:focus{
-    color: red;
+    color: var(--pressed-state-color);
 }
 
 .contacts a {
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--primary-background-color);
     color: #FFFFFF;
 }
 
@@ -37,7 +47,7 @@
 }
 
 .Features .features-title {
-    color: #2E2F42;
+    color: var(--primary-header-color);
 }
 
 .team {
@@ -45,9 +55,26 @@
 }
 
 .page-footer {
-    background-color: #2E2F42;
+    background-color: var(--primary-background-color);
+}
+
+.page-footer a {
+    color: #E7E9FC;
 }
 
 .page-footer>p {
     color: #E7E9FC;
+}
+
+
+/* portfolio css */
+
+.filter {
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+}
+
+.active-button:hover,  .active-button:focus{
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
