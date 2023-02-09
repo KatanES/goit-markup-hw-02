@@ -24,6 +24,14 @@
     color: var(--primary-header-color);
 }
 
+.logo {
+    color: #000000
+}
+
+.logo>span {
+    color:  #4D5AE5;
+}
+
 .site-nav .link {
     color: var(--primary-header-color);
 }
