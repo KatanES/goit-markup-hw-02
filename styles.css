@@ -14,18 +14,29 @@
 .page {
     background-color: #FFFFFF;
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .list {
     list-style: none;
 }
 
+
 .section {
     color: var(--primary-header-color);
 }
 
 .logo {
-    color: #000000
+    color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
 }
 
 .logo>span {
@@ -34,6 +45,12 @@
 
 .site-nav .link {
     color: var(--primary-header-color);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover, .site-nav .link:focus{
@@ -42,16 +59,37 @@
 
 .contacts a {
     color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 400;
 }
 
 .hero {
     background-color: var(--primary-background-color);
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
 }
 
 .hero .hero-button {
     background-color: #4D5AE5;
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 .Features .features-title {
@@ -72,6 +110,7 @@
 
 .page-footer>p {
     color: #E7E9FC;
+    font-style: normal;
 }
 
 
@@ -80,6 +119,11 @@
 .filter {
     background-color: #E7E9FC;
     color: #4D5AE5;
+}
+
+button {
+    cursor: pointer;
+    letter-spacing: 0.04em;
 }
 
 .active-button:hover,  .active-button:focus{
