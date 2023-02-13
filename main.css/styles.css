@@ -99,6 +99,10 @@ a {
     font-weight: 400;
 }
 
+.contacts a:hover, .contacts a:focus{
+    color: var(--pressed-state-color);
+}
+
 /* hero section */
 
 .hero {
@@ -119,6 +123,10 @@ a {
     font-weight: 500;
     letter-spacing: 0.04em;
 }
+
+.hero-button:hover,  .hero-button:focus{
+        background-color: #404BBF;
+    }
 
 /* main section */
 .Features .features-title {
