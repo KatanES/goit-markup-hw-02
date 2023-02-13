@@ -5,7 +5,7 @@
     --primary-background-color: #2E2F42;
 }
 
-.page {
+body {
     background-color: #FFFFFF;
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
@@ -15,11 +15,37 @@
     letter-spacing: 0.02em;
 }
 
-.list {
-    list-style: none;
+button {
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
 }
 
-h2 {
+a {
+    text-decoration: none;
+}
+
+.secret-name {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.title-2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -27,7 +53,7 @@ h2 {
     text-align: center;
 }
 
-h3 {
+.title-3 {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -78,10 +104,13 @@ h3 {
 .hero {
     background-color: var(--primary-background-color);
     color: #FFFFFF;
+    text-align: center;
+}
+
+.hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1;
-    text-align: center;
 }
 
 .hero .hero-button {
@@ -121,15 +150,6 @@ h3 {
 .filter {
     background-color: #E7E9FC;
     color: #4D5AE5;
-}
-
-button {
-    cursor: pointer;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.04em;
 }
 
 .active-button:hover,  .active-button:focus{
